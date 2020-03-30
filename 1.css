@@ -173,3 +173,8 @@ span.motaqt {
     cursor: pointer;
     transition: 0.4s;
 }
+.col-sm-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
