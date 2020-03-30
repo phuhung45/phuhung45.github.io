@@ -17,10 +17,11 @@ a {
     background-color: transparent;
     font-family: segoe ui;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 7px;
 }
 a.navbar-brand {
     padding: 0;
+    margin-bottom: auto;
 }
 * {
     margin: 0;
@@ -69,6 +70,7 @@ nav.navbar.navbar-light.bg-faded {
     z-index: 2;
     position: relative;
     padding-top: 80px;
+    margin-bottom: auto;
 }
 body, html {
     height: 100%;
