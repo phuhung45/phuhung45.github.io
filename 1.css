@@ -147,3 +147,29 @@ span.motaqt {
 .edu {
     background: white;
 }
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 70%;
+    margin-left: -2px;
+}
+.xuong:hover {
+    bottom: 6%;
+}
+.xuong {
+    width: 40px;
+    height: 77px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 3%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
