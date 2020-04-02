@@ -72,6 +72,12 @@ nav.navbar.navbar-light.bg-faded {
     padding-top: 80px;
     margin-bottom: auto;
 }
+.info {
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    margin-left: 270px;
+}
 body, html {
     height: 100%;
     width: 100%;
@@ -178,3 +184,4 @@ span.motaqt {
     flex: 0 0 100%;
     max-width: 100%;
 }
+img.giua {display: block; margin-left: auto; margin-right: auto;margin-top: 300px;} 

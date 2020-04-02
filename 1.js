@@ -1,9 +1,11 @@
-$(function(){
-	vitricuaedu = $('#khoiedu').offset().top ;
-	console.log(vitricuaedu;)
+$(document).ready(function() {
+			$(".xuong,.kn").click(function(){
+				$('body,html').animate({scrollTop:$('#khoiedu').offset().top}, 800);
+				return	false;
 
-	$(".xuong").click(function() {
-		$('body,html').animate({scrollTop:vitricuaedu},800)
-	
-	});
-})
+			})
+			$(".cmt").click(function(){
+				$('body,html').animate({scrollTop:$('#khoicomment').offset().top}, 800);
+				return	false;
+			})
+		});
