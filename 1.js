@@ -4,8 +4,13 @@ $(document).ready(function() {
 				return	false;
 
 			})
+			$("#lh").click(function(){
+				$('body,html').animate({scrollTop:$('.khoilh').offset().top}, 800);
+				return	false;
+
+			})
 			$(".cmt").click(function(){
-				$('body,html').animate({scrollTop:$('#khoicomment').offset().top}, 800);
+				$('body,html').animate({scrollTop:$('.khoicmt').offset().top}, 800);
 				return	false;
 			})
-		});
+});
